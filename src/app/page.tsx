@@ -1,6 +1,22 @@
 import Image from "next/image";
 
-export default function Home() {
+const HomePage = () => {
+  return (
+    <div>
+      <h1>Matheus Perez</h1>
+      <p>Software Engineer</p>
+      <ul>
+        <li>Projects</li>
+        <li>Info</li>
+        <li>Contact</li>
+      </ul>
+
+      <p>Android Developer and Math enthusiast: crafting innovative solutions by blending code with mathematical precision. Passionate about pushing the boundaries of Software Development, I strive for excellence in transforming ideas into seamless Android experiences.</p>
+    </div>
+  )
+}
+
+function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
@@ -111,3 +127,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default HomePage
