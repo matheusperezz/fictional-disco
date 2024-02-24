@@ -1,17 +1,27 @@
+import LiButton from "@/components/LiButton";
 import Image from "next/image";
+import Link from "next/link";
+
+const onProjectClick = () => {
+  console.log("Projeto clicado")
+}
 
 const HomePage = () => {
   return (
     <div>
-      <h1>Matheus Perez</h1>
-      <p>Software Engineer</p>
-      <ul>
-        <li>Projects</li>
-        <li>Info</li>
-        <li>Contact</li>
+      <h1 className="p-4">Matheus Perez</h1>
+      <p className="p-4">Software Engineer</p>
+      <ul className="p-4">
+        <Link href="/projects"><LiButton>Projects</LiButton></Link>
+        <Link href="/info"><LiButton>Info</LiButton></Link>
+        <Link href="/contact"><LiButton>Contact</LiButton></Link>
       </ul>
 
-      <p>Android Developer and Math enthusiast: crafting innovative solutions by blending code with mathematical precision. Passionate about pushing the boundaries of Software Development, I strive for excellence in transforming ideas into seamless Android experiences.</p>
+      <div className="absolute bottom-0 left-0 mb-14 ml-14 w-60">
+        <p>
+          Android Developer and Math enthusiast: crafting innovative solutions by blending code with mathematical precision. Passionate about pushing the boundaries of Software Development, I strive for excellence in transforming ideas into seamless Android experiences.
+        </p>
+      </div>
     </div>
   )
 }
