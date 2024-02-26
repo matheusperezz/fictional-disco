@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 import "./globals.css";
 import Header from "@/components/Header";
 
