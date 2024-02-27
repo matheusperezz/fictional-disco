@@ -19,6 +19,36 @@
                 "https://github.com/matheusperezz/tabnews-android/raw/main/sauce/gif_tabnewskt_2.gif",
                 "https://github.com/matheusperezz/tabnews-android/raw/main/sauce/gif_tabnewskt_3.gif"
             ]
+        },
+        {
+            "id":"3",
+            "title": "Tabnews android",
+            "description": "Tabnews is a news app that provides news from different sources",
+            "github": "",
+            "sources": [
+                "https://github.com/matheusperezz/tabnews-android/raw/main/sauce/gif_tabnewskt_2.gif",
+                "https://github.com/matheusperezz/tabnews-android/raw/main/sauce/gif_tabnewskt_3.gif"
+            ]
+        },
+        {
+            "id":"4",
+            "title": "Tabnews android",
+            "description": "Tabnews is a news app that provides news from different sources",
+            "github": "",
+            "sources": [
+                "https://github.com/matheusperezz/tabnews-android/raw/main/sauce/gif_tabnewskt_2.gif",
+                "https://github.com/matheusperezz/tabnews-android/raw/main/sauce/gif_tabnewskt_3.gif"
+            ]
+        },
+        {
+            "id":"5",
+            "title": "Tabnews android",
+            "description": "Tabnews is a news app that provides news from different sources",
+            "github": "",
+            "sources": [
+                "https://github.com/matheusperezz/tabnews-android/raw/main/sauce/gif_tabnewskt_2.gif",
+                "https://github.com/matheusperezz/tabnews-android/raw/main/sauce/gif_tabnewskt_3.gif"
+            ]
         }
     ]
 }

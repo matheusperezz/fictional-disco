@@ -1,18 +1,49 @@
 import Header from "@/components/Header";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
+
+import linkedinSvg from '../../public/iconmonstr-linkedin-2.svg';
+import emailSvg from '../../public/iconmonstr-email-1.svg';
+import githubSvg from '../../public/iconmonstr-github-2.svg';
 
 const HomePage = () => {
   return (
     <div>
-      <h1 className="p-4 text-4xl">Matheus Perez</h1>
-      <p className="p-4">Software Engineer</p>
+      <h1 className="p-2 text-4xl font-bold">Matheus Perez</h1>
+      <p className="p-2 text-neutral-600">Software Engineer</p>
 
-      <div className="absolute bottom-0 right-0 mb-14 mr-14 w-60">
+      <div className="absolute bottom-0 left-0 mb-14 ml-14 w-60 text-neutral-600 text-lg">
         <p>
           Android Developer and Math enthusiast: crafting innovative solutions by blending code with mathematical precision. Passionate about pushing the boundaries of Software Development, I strive for excellence in transforming ideas into seamless Android experiences.
         </p>
       </div>
+
+      <div className="absolute bottom-0 right-0 mb-14 mr-14 w-60 text-neutral-600 text-lg">
+        <ul className="">
+          <ListItem src={linkedinSvg} alt="Linkedin redirect" label="Linkedin" href="https://www.linkedin.com/in/matheusdeperez"/>
+          <ListItem src={emailSvg} alt="Email redirect" label="Email" href="mailto:matheus.mperez08@gmail.com"/>
+          <ListItem src={githubSvg} alt="Github redirect" label="Github" href="https://github.com/matheusperezz/"/>
+        </ul>
+      </div>
+
     </div>
+  )
+}
+
+interface ListItemProps {
+  src: StaticImageData
+  alt: string
+  label: string
+  href: string
+}
+
+const ListItem = ({ src, alt, label, href }: ListItemProps) => {
+  return (
+    <li className="flex gap-2 p-2 cursor-pointer m-2">
+      <a href={href} className="flex gap-2">
+        <Image src={src} alt={alt}/>
+        {label}
+      </a>
+    </li>
   )
 }
 

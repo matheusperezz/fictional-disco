@@ -7,8 +7,7 @@ const Header = () => {
             <ul className="flex justify-center">
                 <Link className='mr-12' href='/'><LiButton>Home</LiButton></Link>
                 <Link className='mr-12' href='/projects'><LiButton>Projects</LiButton></Link>
-                <Link className='mr-12' href='/info'><LiButton>Info</LiButton></Link>
-                <Link className='mr-12' href='/contact'><LiButton>Contact</LiButton></Link>
+                <Link className='mr-12' href='/resume'><LiButton>Resume</LiButton></Link>
             </ul>
         </div>
     )
