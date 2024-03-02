@@ -3,11 +3,12 @@ import Image, { StaticImageData } from "next/image";
 import linkedinSvg from '../../public/iconmonstr-linkedin-2.svg';
 import emailSvg from '../../public/iconmonstr-email-1.svg';
 import githubSvg from '../../public/iconmonstr-github-2.svg';
+import TopTitle from "@/components/TopTitle";
 
 const HomePage = () => {
   return (
     <div>
-      <h1 className="p-2 text-4xl font-bold w-full text-center">Matheus Perez</h1>
+      <TopTitle title="Matheus Perez"/>
       <p className="p-2 text-neutral-600 text-center">Software Engineer</p>
 
       <div className="text-neutral-600 text-lg m-14">
