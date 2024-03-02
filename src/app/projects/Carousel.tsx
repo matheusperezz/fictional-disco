@@ -18,7 +18,7 @@ const Carousel = ({ images }: CarouselProps) => {
     }, [images]);
 
     return (
-        <div className="relative w-full h-64 overflow-hidden">
+        <div className="relative w-full h-64 overflow-hidden mb-4">
             {images.map((image, index) => (
                 <img 
                     src={image}
