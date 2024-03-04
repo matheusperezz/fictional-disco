@@ -1,6 +1,10 @@
+import TopTitle from '../../components/TopTitle.tsx'
+
 const ResumePage = () => {
     return (
-        <h1>Resume page</h1>
+      <div>
+        <TopTitle title="Resume"/>
+      </div>
     )
 }
 
