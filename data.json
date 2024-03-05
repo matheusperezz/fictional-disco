@@ -3,7 +3,7 @@
         {
             "id":"1",
             "title": "Tabnews",
-            "description": "Tabnews is a news app that provides news from different sources",
+            "description": "Tabnews é um aplicativo de notícias que fornece notícias de diferentes fontes, consumindo os conteúdos do próprio site Tabnews",
             "sources": [
                 "https://github.com/matheusperezz/tabnews-android/raw/main/sauce/gif_tabnewskt_2.gif",
                 "https://github.com/matheusperezz/tabnews-android/raw/main/sauce/gif_tabnewskt_3.gif"
@@ -12,7 +12,7 @@
         {
             "id":"2",
             "title": "Firecache",
-            "description": "A simple library app, that provides offline first and syncronization with a api database.",
+            "description": "Um aplicativo de biblioteca simples, que fornece sincronização com uma API, focando na experiência Offline-first.",
             "github": "https://github.com/matheusperezz/fire-cache",
             "sources": [
                 "https://github.com/matheusperezz/fictional-disco/blob/main/public/firecache-1.png?raw=true"

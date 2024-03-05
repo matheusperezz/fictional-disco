@@ -13,7 +13,7 @@ const HomePage = () => {
 
       <div className="text-neutral-600 text-lg m-14">
         <p>
-          Android Developer and Math enthusiast: crafting innovative solutions by blending code with mathematical precision. Passionate about pushing the boundaries of Software Development, I strive for excellence in transforming ideas into seamless Android experiences.
+          Desenvolvedor Android e entusiasta de matemática, criando soluções inovadoras combinando código com precisão matemática. Apaixonado por ultrapassar os limites do desenvolvimento de software, busco a excelência na transformação de ideias em experiências mobile perfeitas.
         </p>
       </div>
 
