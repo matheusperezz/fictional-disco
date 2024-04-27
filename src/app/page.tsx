@@ -7,17 +7,17 @@ import TopTitle from "@/components/TopTitle";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8">
       <TopTitle title="Matheus Perez"/>
       <p className="p-2 text-neutral-600 text-center">Software Engineer</p>
 
-      <div className="text-neutral-600 text-lg m-14">
+      <div className="text-neutral-600 text-lg mt-8 sm:m-14">
         <p>
-          Desenvolvedor Android e entusiasta de matemática, criando soluções inovadoras combinando código com precisão matemática. Apaixonado por ultrapassar os limites do desenvolvimento de software, busco a excelência na transformação de ideias em experiências mobile perfeitas.
+          Engenheiro de software e entusiasta de matemática, criando soluções inovadoras combinando código com precisão matemática. Apaixonado por ultrapassar os limites do desenvolvimento de software, busco a excelência na transformação de ideias em experiências mobile perfeitas.
         </p>
       </div>
 
-      <div className="absolute bottom-0 right-0 mb-14 mr-14 w-60 text-neutral-600 text-lg">
+      <div className="absolute bottom-0 right-0 mb-8 sm:mb-14 mr-8 sm:mr-14 w-48 sm:w-60 text-neutral-600 text-lg">
         <ul className="">
           <ListItem src={linkedinSvg} alt="Linkedin redirect" label="Linkedin" href="https://www.linkedin.com/in/matheusdeperez"/>
           <ListItem src={emailSvg} alt="Email redirect" label="Email" href="mailto:matheus.mperez08@gmail.com"/>

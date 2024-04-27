@@ -2,6 +2,46 @@
     "projects": [
         {
             "id":"1",
+            "title": "Artigo: Vale a pena aprender KMP?",
+            "description": "Você que está estudando desenvolvimento para plataformas como Android, iOS e até mesmo Desktop, já se perguntou qual ferramenta pode tornar esse processo mais eficiente?",
+            "sources": [
+                "https://www.alura.com.br/artigos/assets/aprender-kmp/aprender-kmp.jpg"
+            ]
+        },
+        {
+            "id":"2",
+            "title": "Artigo: Deeplinks em SwiftUI o que são e como utilizar",
+            "description": "Neste artigo, vamos entender o que são deeplinks e como funcionam em aplicativos iOS construídos com SwiftUI.",
+            "sources": [
+                "https://www.alura.com.br/artigos/assets/deeplinks-swiftui-o-que-sao-como-utilizar/deeplinks-swiftui-o-que-sao-como-utilizar.jpg"
+            ]
+        },
+        {
+            "id":"3",
+            "title": "Artigo: Closures em Swift",
+            "description": "Neste artigo você vai aprender o que é e como utilizar Closures na linguagem swift",
+            "sources": [
+                "https://www.alura.com.br/artigos/assets/closures-swift-como-utiliza-las/closures-swift-como-utiliza-las.jpg"
+            ]
+        },
+        {
+            "id":"4",
+            "title": "Artigo: Vale a pena aprender SwiftUI?",
+            "description": "Neste artigo, veremos que ambos os frameworks possuem vantagens e desvantagens que devem ser consideradas antes de tomar uma decisão. Ambos utilizam a linguagem Swift e servem para construir aplicativos do sistema iOS (utilizado nos iPhones, por exemplo).",
+            "sources": [
+                "https://www.alura.com.br/artigos/assets/vale-a-pena-aprender-swift-ui-hoje/vale-a-pena-aprender-swift-ui-hoje.jpg"
+            ]
+        },
+        {
+            "id":"5",
+            "title": "Artigo: Criando Alert Dialogs com Navigation - Jetpack Compose",
+            "description": "Neste artigo, vou mostrar como criar Alert Dialogs personalizados no Navigation, para tornar a experiência do usuário mais ágil e nosso código mais eficiente e reutilizável.",
+            "sources": [
+                "https://www.alura.com.br/artigos/assets/alert-dialogs-navigation-jetpack-compose/alert-dialogs-navigation-jetpack-compose.jpeg"
+            ]
+        },
+        {
+            "id":"6",
             "title": "Tabnews",
             "description": "Tabnews é um aplicativo de notícias que fornece notícias de diferentes fontes, consumindo os conteúdos do próprio site Tabnews",
             "sources": [
@@ -10,7 +50,7 @@
             ]
         },
         {
-            "id":"2",
+            "id":"7",
             "title": "Firecache",
             "description": "Um aplicativo de biblioteca simples, que fornece sincronização com uma API, focando na experiência Offline-first.",
             "github": "https://github.com/matheusperezz/fire-cache",
