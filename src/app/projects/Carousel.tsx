@@ -18,14 +18,14 @@ const Carousel = ({ images }: CarouselProps) => {
     }, [images]);
 
     return (
-        <div className="relative w-auto overflow-hidden mb-4 h-96">
+        <div className="relative w-auto overflow-hidden mb-4 h-48">
             {images.map((image, index) => (
                 <img 
                     src={image}
                     key={index}
                     alt="" 
-                    className={`absolute w-full h-full transition-opacity duration-1000 ${index === activeIndex ? 'opacity-100' : 'opacity-0'} rounded-md`}    
-                    style={{ objectFit: 'contain' }}
+                    className={`absolute w-full h-auto transition-opacity duration-1000 ${index === activeIndex ? 'opacity-100' : 'opacity-0'} rounded-md`}    
+                    style={{ objectFit: 'fill' }}
                 />
             ))}
         </div>

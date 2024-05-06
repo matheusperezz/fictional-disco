@@ -34,7 +34,7 @@ const ResumePage = () => {
             
             <ProfExperienceItem 
               company="Alura"
-              role="Android Developer [Maio/2022 - Atualmente]"
+              role="Android Developer [Maio/2022 - Maio/2024]"
               description={ description }
             />
 

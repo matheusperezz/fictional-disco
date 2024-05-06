@@ -13,7 +13,7 @@ const HomePage = () => {
 
       <div className="text-neutral-600 text-lg mt-8 sm:m-14">
         <p>
-          Engenheiro de software e entusiasta de matemática, criando soluções inovadoras combinando código com precisão matemática. Apaixonado por ultrapassar os limites do desenvolvimento de software, busco a excelência na transformação de ideias em experiências mobile perfeitas.
+          Engenheiro de software e entusiasta de matemática, criando soluções inovadoras combinando código com precisão matemática. Apaixonado por ultrapassar os limites do desenvolvimento de software, busco a excelência na transformação de ideias em ótimas experiências.
         </p>
       </div>
 

@@ -7,7 +7,7 @@ const ProjectsPage = () => {
 
     return (
         <div>
-            <TopTitle title="Projects"/>
+            <TopTitle title="Projetos"/>
             <ProjectsGrid projects={data.projects}/>
         </div>
     )
